@@ -20,5 +20,5 @@ const e2 = new Manager("Safnaj", "RPA");
 
 e1.display();
 e2.display();
-e2.display = () => console.log("this function is overriden");
+e2.display = () => console.log("this function is override");
 e2.display();

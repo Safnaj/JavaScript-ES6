@@ -17,7 +17,7 @@ const data = {
     city : "MRM",
     country : "Sri Lanka",
     age : 25,
-    vehicile : "Swift",
+    vehicle : "Swift",
 }
 
 let { name, city, ...person } = data;
