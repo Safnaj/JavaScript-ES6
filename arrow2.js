@@ -1,10 +1,10 @@
 const print = {
     function1: function() {
-        console.log('This is the Fucntion 1', this);
+        console.log('This is the Function 1', this);
     },
 
     function2: () => {
-        console.log('This is the Fucntion 2', this);
+        console.log('This is the Function 2', this);
     }
 }
 

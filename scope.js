@@ -2,7 +2,7 @@
 
 /*
     - VAR keyword are scoped to the immediate function body.
-    - LET Varibables are scoped to the immediate enclosing block {}.
+    - LET Variables are scoped to the immediate enclosing block {}.
 */
 
 //let m = 0;
