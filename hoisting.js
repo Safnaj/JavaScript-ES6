@@ -1,9 +1,9 @@
 /*
-    Hoisiting of JavaScript mechanism where variables and functino declarations are moved
+    Hoisiting of JavaScript mechanism where variables and function declarations are moved
     to the top of their scope before the execution.
 
     Functions and Variables declarations are hoisted but the main thing is functions are 
-    hoiseted first and the variables.
+    hoiseted first and then variables.
 */
 
 console.log(hello); //Undefined
@@ -36,6 +36,6 @@ function carDetails() {
 
 sayHello(); //Uncaught TypeError: sayHello is not a function.
 
-var sayHello = function() {
-   console.log('Hello');
+var sayHello = function () {
+    console.log('Hello');
 }
