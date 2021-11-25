@@ -1,6 +1,6 @@
 // Ex - 1
 
-const [jan, feb, mar, ,may] = [10, 20, 20, 40, 50];
+const [jan, feb, mar, , may] = [10, 20, 20, 40, 50];
 console.log(jan); // 10
 console.log(may); // 50
 
@@ -13,11 +13,11 @@ console.log(otherMonths); // 20, 30, 40, 50
 
 // Ex - 3
 const data = {
-    name : "Safnaj",
-    city : "MRM",
-    country : "Sri Lanka",
-    age : 25,
-    vehicile : "Swift",
+    name: "Safnaj",
+    city: "MRM",
+    country: "Sri Lanka",
+    age: 25,
+    vehicile: "Swift",
 }
 
 let { name, city, ...person } = data;
@@ -25,6 +25,15 @@ console.log(person); //Prints country, age, vehicle
 
 let person2 = {
     ...data,    //copying object
-    email : "safnaj99@live.com"
+    email: "safnaj99@live.com"
 }
 console.log(person2);
+//prints
+// {
+//     name: 'Safnaj',
+//     city: 'MRM',
+//     country: 'Sri Lanka',
+//     age: 25,
+//     vehicile: 'Swift',
+//     email: 'safnaj99@live.com'
+// }
